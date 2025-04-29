@@ -1,6 +1,8 @@
 
 # Galactic Deep Vision
 
+IMPORTANT NOTE: I could not fit the original full dataset on github, so I provided a smaller but still viable train/test set for functionality. Highly reccomend using SDSS image library via SQL querying if you would like to attempt similar tests at higher sizes.
+
 GDV is a deep learning project based on the subject of galaxy morphology, which is a field of astronomy. This entails categorizing galaxies into Hubble-TF classes.
 
 A key difference in our project is that we use real categories accepted by astronomers, namely (Lenticular, Spiral, Barred-Sprial, and Elliptical), rather than arbitrary shapes such as "round", "foggy", or "cigar-shaped".
