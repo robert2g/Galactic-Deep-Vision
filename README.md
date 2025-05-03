@@ -11,15 +11,15 @@ The model achieves exceptional results, with 98.2% on 3-Way and 93.17% on 4-Way 
  
 ## Code Summary
 
-GDV is a simple project that aims to effectively categorize galaxies into hubble-tuning-fork categories. 
+GDV is a project that aims to effectively categorize galaxies into hubble-tuning-fork categories, rather than by apparent shape. 
 
 The program code first takes in data and applies preprocessing techniques to make notable features of galaxy images easier for the model to interpret, before feeding it into the model.
 
 You can also print example images of each category to see the result of preprocessing.
 
-This is then run through a pretrained model of ResNet-34 that utilizes learning rate scheduling, early stopping, and model saving to get the best result.
+This is then run through a pretrained model of ResNet-34 that utilizes learning rate scheduling, early stopping, and model saving to get the best result over 20 runs.
 
-After training, you can print graph results of accuracy and loss.
+After training, you can print graph results of accuracy and loss, along with a confusion matrix for 3 and 4-way categories.
 
 Once your training run is finished, you can test the model accuracy on an unseen set of data, on multiple runs that can be determined by the user.
 
